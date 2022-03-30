@@ -6,7 +6,7 @@
 # print nothing if the number isn't divisible by 3 or 5.
 
 NUM=1
-until ((NUM == 101)) ; do
+until ((NUM == 21)) ; do
    if ((NUM % 15 == 0)) ; then
        echo FizzBuzz
    elif ((NUM % 3 == 0)) ; then
