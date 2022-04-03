@@ -18,3 +18,23 @@ until ((NUM == 21)) ; do
    fi
    ((NUM = NUM + 1))
 done
+
+# this is another way to do fizzbuzz
+#printf "Enter number:"
+#read i
+  
+#if (( "$i" >= 1 && "$i" <= 20))
+#then
+ #   if  (( $i % 3 == 0 )) && (( $i % 5 == 0 ))
+  #   then
+   # echo FizzBuzz 
+    #elif (( $i % 3 == 0 ))  
+    #then
+    #echo Fizz 
+    #elif (( $i % 5 == 0 ))  
+    #then
+    #echo Buzz 
+    #else
+    #echo NOTHING
+    #fi 
+#fi
