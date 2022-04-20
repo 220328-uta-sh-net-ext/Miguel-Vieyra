@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\revature\\ResturantReviewApp\\ResturantReviewUI\\ResturantReviewUI.csproj",
+      "projectUniqueName": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewUI\\ResturantReviewUI.csproj",
       "projectName": "ResturantReviewUI",
-      "projectPath": "C:\\revature\\ResturantReviewApp\\ResturantReviewUI\\ResturantReviewUI.csproj",
+      "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewUI\\ResturantReviewUI.csproj",
       "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "C:\\revature\\ResturantReviewApp\\ResturantReviewUI\\obj\\",
+      "outputPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

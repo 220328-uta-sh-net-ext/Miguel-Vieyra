@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ResturantReviewModel
 {
-    internal class User
+    public class User
     {
         public string Name { get; set; }
         private int Password;

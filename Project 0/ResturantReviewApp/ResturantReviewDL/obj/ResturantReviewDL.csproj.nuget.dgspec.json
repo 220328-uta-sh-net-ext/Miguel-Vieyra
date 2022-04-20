@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\revature\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj": {}
+    "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj": {}
   },
   "projects": {
-    "C:\\revature\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj": {
+    "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\revature\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj",
+        "projectUniqueName": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj",
         "projectName": "ResturantReviewDL",
-        "projectPath": "C:\\revature\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj",
+        "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "C:\\revature\\ResturantReviewApp\\ResturantReviewDL\\obj\\",
+        "outputPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
