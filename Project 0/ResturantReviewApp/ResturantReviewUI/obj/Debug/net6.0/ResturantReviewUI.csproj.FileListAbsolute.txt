@@ -1,0 +1,15 @@
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\bin\Debug\net6.0\ResturantReviewUI.exe
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\bin\Debug\net6.0\ResturantReviewUI.deps.json
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\bin\Debug\net6.0\ResturantReviewUI.runtimeconfig.json
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\bin\Debug\net6.0\ResturantReviewUI.dll
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\bin\Debug\net6.0\ResturantReviewUI.pdb
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.csproj.AssemblyReference.cache
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.AssemblyInfoInputs.cache
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.AssemblyInfo.cs
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.csproj.CoreCompileInputs.cache
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.dll
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\refint\ResturantReviewUI.dll
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.pdb
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ResturantReviewUI.genruntimeconfig.cache
+C:\revature\Miguel-Vieyra\Project 0\ResturantReviewApp\ResturantReviewUI\obj\Debug\net6.0\ref\ResturantReviewUI.dll
