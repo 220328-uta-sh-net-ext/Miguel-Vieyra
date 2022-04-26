@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ResturantReviewDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ResturantReviewModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ResturantReviewDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResturantReviewDL.dll": {}
+        }
+      },
+      "ResturantReviewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ResturantReviewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResturantReviewModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ResturantReviewDL/1.0.0": {
+      "type": "project",
+      "path": "../ResturantReviewDL/ResturantReviewDL.csproj",
+      "msbuildProject": "../ResturantReviewDL/ResturantReviewDL.csproj"
+    },
+    "ResturantReviewModel/1.0.0": {
+      "type": "project",
+      "path": "../ResturantReviewModel/ResturantReviewModel.csproj",
+      "msbuildProject": "../ResturantReviewModel/ResturantReviewModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ResturantReviewDL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\migue\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj": {
+              "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewDL\\ResturantReviewDL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

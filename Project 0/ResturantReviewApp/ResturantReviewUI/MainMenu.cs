@@ -12,7 +12,8 @@ namespace ResturantReviewUI
         {
             Console.WriteLine("Welcome to Resturant App");
             Console.WriteLine("What would you like to do?");
-            Console.WriteLine("Press <2> to Search Resturant");
+            Console.WriteLine("Press <3> to see all Resturants");
+            Console.WriteLine("Press <2> to Search Resturants");
             Console.WriteLine("Press <1> to Add Resturant to your profile");
             Console.WriteLine("Press <0> to Exit");
         }
@@ -30,6 +31,8 @@ namespace ResturantReviewUI
                     return "AddResturant";
                 case "2":
                     return "SearchResturant";
+                case "3":
+                    return "Get all Resturants";
                 default:
                     Console.WriteLine("Please input a valid response");
                     Console.WriteLine("Please press <enter> to continue");

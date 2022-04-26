@@ -16,7 +16,11 @@ while (true)
             Console.WriteLine("SearchResturant() Method is in progress.....");
             break;
         case "AddResturant":
-            Console.WriteLine("AddResturant() Method implementation is in progress.....");
+            ResturantOperations.AddDummyResturant();
+            Console.WriteLine("AddResturant() Method implementation is in progress....");
+            break;
+        case "GetAllResturants":
+            ResturantOperations.GetAllResturants();
             break ;
         case "MainMenu":
             menu=new MainMenu();

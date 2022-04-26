@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ResturantReviewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ResturantReviewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResturantReviewModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ResturantReviewModel/1.0.0": {
+      "type": "project",
+      "path": "../ResturantReviewModel/ResturantReviewModel.csproj",
+      "msbuildProject": "../ResturantReviewModel/ResturantReviewModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ResturantReviewModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\migue\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewModel\\ResturantReviewModel.csproj": {
+              "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewModel\\ResturantReviewModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
