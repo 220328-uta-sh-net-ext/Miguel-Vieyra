@@ -9,11 +9,16 @@ namespace ResturantReviewUI
 {
     internal class ResturantOperations
     {
-        Static Repository repository= new Repository();
+        static Repository repository= new Repository();
+
 
         public static void GetAllResturants()
         {
-            repository.GetAllResturants();
+            var resturants = repository.GetAllResturants();
+            foreach (var rest in resturants)
+            {
+                Console.WriteLine(rest.ToString());
+            }
         }
         public static void AddDummyResturant()
         {

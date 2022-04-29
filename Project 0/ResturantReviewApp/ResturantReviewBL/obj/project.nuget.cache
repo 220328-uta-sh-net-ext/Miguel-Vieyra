@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "UHew7PFkMbSgfSxpTb7gZ0y1Se/XrsP5Qm4yMENUj9oYzksv35hk4ImFnrQJJFj91Hu1wAQ0ml5uOkpkB/QRRQ==",
-  "success": true,
+  "dgSpecHash": "2O+fGA7VPGR4zabyM8y+PjjgB017wHBRIjKHe9z49ImarKY9OoWpWoHSBVPYCHsYVwm6tx+NHL6ZofrjLhgUDQ==",
+  "success": false,
   "projectFilePath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantReviewBL\\ResturantReviewBL.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

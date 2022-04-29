@@ -10,12 +10,29 @@ namespace ResturantReviewDL
     {
         private string filePath = "../ResturantDL/Database";
         private string jsonString;
+
         public Resturant AddResturant(Resturant Rest)
         {
             var resturants=GetAllResturants();
             resturants.Add(Rest);
            var resturantString= JsonSerializer.Serialize<List<Resturant>>(resturants, new JsonSerializerOptions { WriteIndented=true});
-            File.WriteAllText(filePath, resturantString);
+            try
+            {
+                File.WriteAllText(filePath, resturantString);
+            }
+            catch (DirectoryNotFoundException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (FileNotFoundException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
             return Rest;
         }
 

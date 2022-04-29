@@ -31,7 +31,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj": {
+                "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj"
+              },
+              "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj": {
+                "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

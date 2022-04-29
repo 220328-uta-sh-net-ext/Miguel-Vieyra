@@ -5,7 +5,10 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj",
+      "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\migue\\.nuget\\packages\\": {},
@@ -38,7 +41,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj": {
+              "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj"
+            },
+            "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj": {
+              "projectPath": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -68,5 +78,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
