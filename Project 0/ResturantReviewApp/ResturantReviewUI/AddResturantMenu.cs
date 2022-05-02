@@ -11,7 +11,12 @@ namespace ResturantReviewUI
     {
         private static Resturant newResturant=new Resturant();
 
-        private IRepository _repository = new Repository();
+        private readonly IResturantLogic logic;
+
+        public AddResturantMenu(IResturantLogic logic)
+        {
+            this.logic = logic;
+        }
 
         public void Display()
         {
@@ -24,25 +29,40 @@ namespace ResturantReviewUI
 
         public string UserChoice()
         {
-            string userInput = Console.ReadLine();
+            if (Console.ReadLine() is not string userInput)
+                throw new InvalidDataException("end of input");
             switch (userInput)
             {
                 case "0":
                     return "MainMenu";
-                    case "1":
-                        _repository.AddResturant(newResturant);
+                case "1":
+                    try
+                    {
+                        Log.Information("Adding a resturant - " + newResturant.Name);
+                        logic.AddResturant(newResturant);
+                        Log.Information("Resturant added successfully");
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Warning("failed to add Resturant");
+                        Console.WriteLine(ex.Message);
+
+                    }
                     return "MainMenu";
-                    case"2":
-                    Console.WriteLine("Please enter a Resturant name");
-                    newResturant.Name = Console.ReadLine();
-                    return "AddResturant";
+                case "2":
+                    Console.Write("Please enter a Review ");
+                    newResturant.review = Convert.ToInt32(Console.ReadLine());
+                    return "AddReview";
                 case "3":
-                    Console.WriteLine("Please enter a User name");
-                    newResturant.User = Console.ReadLine();
+                    Console.Write("Please enter a name! ");
+                    if (Console.ReadLine() is string input)
+                        newResturant.Name = input;
+                    else
+                        throw new InvalidDataException("end of input");
                     return "AddResturant";
                 default:
                     Console.WriteLine("Please input a valid response");
-                    Console.WriteLine("Please press enter to continue");
+                    Console.WriteLine("Please press Enter to continue");
                     Console.ReadLine();
                     return "AddResturant";
             }

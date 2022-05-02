@@ -15,4 +15,11 @@ namespace ResturantReviewUI
 
         string UserChoice();
     }
+
+    interface IMoreMenu
+    {
+        void Exit();
+
+        void Continue();
+    }
 }
