@@ -21,6 +21,7 @@ namespace ResturantReviewUI
         public void Display()
         {
             Console.WriteLine("Enter Resturant Information");
+            Console.WriteLine("<4> User Name " + newResturant.User);
             Console.WriteLine("<3> Resturant Name " + newResturant.Name);
             Console.WriteLine("<2> Review " + newResturant.Review);
             Console.WriteLine("<1> save");
@@ -60,6 +61,13 @@ namespace ResturantReviewUI
                     else
                         throw new InvalidDataException("end of input");
                     return "AddResturant";
+                case "4":
+                    Console.Write("Please enter a Username! ");
+                    if (Console.ReadLine() is string input)
+                        newUser.Name = input;
+                    else
+                        throw new InvalidDataException("end of input");
+                    return "AddUser";
                 default:
                     Console.WriteLine("Please input a valid response");
                     Console.WriteLine("Please press Enter to continue");

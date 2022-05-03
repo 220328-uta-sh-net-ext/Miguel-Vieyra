@@ -6,7 +6,7 @@ namespace ResturantReviewBL
 {
     public class ResturantLogic : IResturantLogic 
     {
-        private const int MaxResturants = 4000;
+        private const int MaxResturants = 5;
         private readonly IRepository repo;
 
         public ResturantLogic(IRepository repo)
@@ -29,7 +29,7 @@ namespace ResturantReviewBL
             }
             else
             {
-                throw new Exception("You cannot exceed more than 1 Resturant");
+                throw new Exception("You cannot exceed more than 5 Resturant");
             }
         }
 

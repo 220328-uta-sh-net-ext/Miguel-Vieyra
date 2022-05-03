@@ -640,8 +640,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj": "1.0.0",
-          "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj": "1.0.0"
+          "ResturantReviewDL": "1.0.0",
+          "ResturantReviewModel": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ResturantReviewBL.dll": {}
@@ -2556,25 +2556,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantModels\\ResturantModels.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\revature\\Miguel-Vieyra\\Project 0\\ResturantReviewApp\\ResturantDL\\ResturantDL.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
